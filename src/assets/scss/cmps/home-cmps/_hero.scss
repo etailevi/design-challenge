@@ -1,0 +1,56 @@
+.hero {
+    height: rem(583px);
+    color: white;
+    position: relative;
+
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-block-start: rem(126px);
+        margin-inline: rem(165px);
+        gap: rem(30px);
+
+        .green-circle {
+            position: absolute;
+            left: -265px;
+        }
+
+        h1 {
+            max-width: rem(635px);
+            font-size: rem(100px);
+            font-weight: 700;
+            line-height: rem(100px);
+
+            span {
+                color: $clr2;
+            }
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .line {
+                background-color: $clr1;
+                height: rem(4px);
+                width: rem(50px);
+            }
+
+            p {
+                padding-inline-end: rem(10px);
+                width: rem(445px);
+                font-size: rem(18px);
+                font-weight: 500;
+                line-height: rem(28px);
+            }
+        }
+    }
+
+    .pink-circle {
+        position: absolute;
+        bottom: 0;
+        right: 165px;
+    }
+}

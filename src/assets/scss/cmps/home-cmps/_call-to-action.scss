@@ -1,0 +1,42 @@
+.call-to-action {
+    color: $clr4;
+    background-color: $clr2;
+    height: rem(200px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    article {
+        display: flex;
+        justify-content: space-between;
+        gap: rem(260px);
+
+        h2 {
+            font-size: rem(48px);
+            font-weight: 700;
+            line-height: rem(48px);
+        }
+
+        .btn-contact {
+            height: rem(48px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: inherit;
+            background-color: transparent;
+            padding: rem(10px) rem(32.5px);
+            border-radius: 2em;
+            border: rem(2px) solid $clr4;
+            font-size: rem(18px);
+            font-weight: 500;
+            line-height: rem(28px);
+        }
+    }
+
+    .pattern-6-img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}

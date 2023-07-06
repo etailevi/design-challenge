@@ -1,0 +1,50 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-block-start: rem(73px);
+    padding-inline: rem(165px);
+    padding-block: rem(76px) 0;
+
+    .link-panel {
+        display: flex;
+        align-items: center;
+        gap: rem(80px);
+
+        .logo {
+            img {
+                width: rem(160px);
+            }
+        }
+
+        .main-nav {
+            display: flex;
+            gap: rem(40px);
+
+            a {
+                font-size: rem(18px);
+                font-weight: 500;
+                line-height: rem(28px);
+
+                &.active {}
+
+                &:hover {}
+            }
+        }
+    }
+
+    .btn-contact {
+        height: rem(48px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: inherit;
+        background-color: transparent;
+        padding: rem(10px) rem(32.5px);
+        border-radius: 2em;
+        border: rem(2px) solid #FFF;
+        font-size: rem(18px);
+        font-weight: 500;
+        line-height: rem(28px);
+    }
+}

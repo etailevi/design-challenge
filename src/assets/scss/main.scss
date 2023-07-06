@@ -1,0 +1,23 @@
+// Setup 
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+//  @import './setup/fonts';
+
+// Basics 
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+
+// Views 
+@import 'views/home';
+@import 'views/about';
+
+// Cmps 
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+
+//Home-Cmps
+@import 'cmps/home-cmps/hero';
+@import 'cmps/home-cmps/home-desc';
+@import 'cmps/home-cmps/call-to-action';

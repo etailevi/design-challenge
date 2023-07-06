@@ -1,0 +1,74 @@
+.home-desc {
+    height: rem(684px);
+    background-color: $clr4;
+    color: white;
+    position: relative;
+
+    .main-desc {
+        display: flex;
+        gap: rem(125px);
+        margin-inline: rem(165px);
+
+        article {
+            padding-block-start: rem(140px);
+            display: flex;
+            flex-direction: column;
+            gap: rem(54px);
+            max-width: rem(445px);
+
+            .line {
+                background-color: $clr2;
+                height: rem(4px);
+                width: rem(50px);
+            }
+
+            h2 {
+                font-size: rem(48px);
+                font-weight: 700;
+                line-height: rem(48px);
+            }
+        }
+
+        .benefit-list {
+            list-style-type: none;
+            padding-block-start: rem(198px);
+            display: flex;
+            flex-direction: column;
+            gap: rem(32px);
+
+            li {
+                display: flex;
+                flex-direction: row;
+                gap: rem(23px);
+
+                img {
+                    height: rem(72px);
+                }
+
+                .cart-text {
+                    max-width: rem(445px);
+
+                    h5 {
+                        margin-block-end: rem(16px);
+                        color: $clr2;
+                        font-size: rem(18px);
+                        font-weight: 600;
+                        line-height: rem(28px);
+                    }
+
+                    p {
+                        font-size: rem(15px);
+                        line-height: rem(25px);
+                        padding-inline-end: rem(15px);
+                    }
+                }
+            }
+        }
+    }
+
+    .desc-img {
+        position: absolute;
+        right: -100px;
+        bottom: 0;
+    }
+}
